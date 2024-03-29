@@ -7,7 +7,7 @@ public class MainTest {
 
     @BeforeEach
     public void build(){
-        output = new ByteArrayOutputStream();
+        output = new ByteArrayOutputStream(); 
         System.setOut(new PrintStream(output));
     }
 
